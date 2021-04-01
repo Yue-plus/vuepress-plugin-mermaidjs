@@ -10,5 +10,7 @@ export default defineUserConfig<DefaultThemeOptions>({
     logo: 'https://vuejs.org/images/logo.png',
   },
 
-  plugins: ['../src/index.js']
+  plugins: [
+    require('../../src/index.js')
+  ]
 })
