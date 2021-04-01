@@ -27,6 +27,8 @@
   },
   "private": false,
   "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
     "test:setup-docs-server": "yarn vuepress dev docs",
     "cypress:run": "cypress run",
     "test": "start-server-and-test test:setup-docs-server http-get://localhost:8080 cypress:run"
