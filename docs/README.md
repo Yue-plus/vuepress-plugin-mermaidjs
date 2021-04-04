@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: 'mermaid Plugin for VuePress'
-tagline: 'Easy diagramming in your documentation/blog/whatever. Requires VuePress 1.x'
+tagline: 'Easy diagramming in your documentation/blog/whatever. Requires VuePress 2.x'
 footer: MIT Licensed | Copyright © 2019-present Stefan "eFrane" Graupner
 ---
 
@@ -93,6 +93,8 @@ Documentation--with diagrams-->_[is Awesome]
 The tag-syntax can be useful if you want to attach additional CSS-classes
 to a diagram, e.g. for aligning it on the page.
 :::
+
+[Test](./test-diagrams.md)
 
 # Known Caveats
 
