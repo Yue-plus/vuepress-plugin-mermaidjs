@@ -11,6 +11,6 @@ export default defineUserConfig<DefaultThemeOptions>({
   },
 
   plugins: [
-    require('../../src/index.js')
+    require('../../lib/index')
   ]
 })
